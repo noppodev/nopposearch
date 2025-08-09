@@ -119,6 +119,36 @@
       background-color: #0078d7;
       color: white;
     }
+  /*mobile*/
+    @media (max-width: 600px) {
+  .search-container {
+    flex-direction: column;
+  }
+
+  input[type="text"] {
+    width: 100%;
+    border-radius: 12px;
+  }
+
+  button {
+    width: 100%;
+    border-radius: 12px;
+  }
+
+  .suggestions, .history {
+    flex-direction: column;
+  }
+
+  .result-item {
+    padding: 12px;
+  }
+
+  .pagination button {
+    padding: 8px;
+    font-size: 12px;
+  }
+}
+
   </style>
 </head>
 <body>
